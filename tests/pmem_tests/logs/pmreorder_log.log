@@ -1,0 +1,2948 @@
+DEBUG:pmreorder:
+-------Initializing operations begin-------
+DEBUG:pmreorder:==6271== pmemcheck-1.0, a simple persistent store checker
+==6271== Copyright (c) 2014-2016, Intel Corporation
+==6271== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==6271== Command: /home/jayashree/projects/redis-3.2nvml/src/redis-server /home/jayashree/projects/redis-3.2nvml/redis.conf --port 1300
+==6271== Parent PID: 6270
+==6271== 
+==6271== START
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x4027000;0x1000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x7800000;0x40000000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x7800000;0x40000000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x4027000;0x1000;0x0
+DEBUG:pmreorder:STORE;0x7801808;0x4;0x8
+DEBUG:pmreorder:FLUSH;0x7801000;0x810
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7801818;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7801000;0x820
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc2440;0x1;0x8
+DEBUG:pmreorder:STORE;0x7bc2448;0xff0;0x8
+DEBUG:pmreorder:STORE;0x7bc2450;0x540ae80;0x8
+DEBUG:pmreorder:STORE;0x7bc2458;0x7801a30;0x8
+DEBUG:pmreorder:STORE;0x7bc2460;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05c0;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc05c8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05d0;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc05d8;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc05e8;0x494c7ca0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f0;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc05f8;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x600
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc05d0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05d8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0600;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0608;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0620;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0628;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0630;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0638;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0600;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0608;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0610;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0618;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x48;0x1
+DEBUG:pmreorder:STORE;0x7bc05e2;0x6f6f662d65756c61;0x8
+DEBUG:pmreorder:STORE;0x7bc05e1;0x6f662d65756c6176;0x8
+DEBUG:pmreorder:STORE;0x7bc05ea;0x0;0x1
+DEBUG:pmreorder:STORE;0x7bc0640;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc0648;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0650;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc0668;0x494c7d20;0x8
+DEBUG:pmreorder:STORE;0x7bc0670;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc0678;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x680
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc0650;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0668;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0670;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0678;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0680;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0688;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06a0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06a8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06b0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06b8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0680;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0688;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0690;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0698;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x18;0x1
+DEBUG:pmreorder:STORE;0x7bc0662;0x6f6f;0x2
+DEBUG:pmreorder:STORE;0x7bc0661;0x6f66;0x2
+DEBUG:pmreorder:STORE;0x7bc0664;0x0;0x1
+DEBUG:pmreorder:STORE;0x7bc06c0;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc06c8;0x2;0x8
+DEBUG:pmreorder:STORE;0x7bc06d0;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x494c7da0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x700
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc06d0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0700;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0708;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0720;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0728;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0730;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0738;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0700;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0708;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0710;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0718;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06d0;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0x3c0661;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x3c05e1;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802400;0xc0000000003c0550;0x8
+DEBUG:pmreorder:STORE;0x7802408;0x43c05620c03c0568;0x8
+DEBUG:pmreorder:STORE;0x7802410;0x18;0x8
+DEBUG:pmreorder:STORE;0x7802418;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802420;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802428;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802430;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802438;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x440
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc0558;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc0560;0x3c06d0;0x8
+DEBUG:pmreorder:STORE;0x7bc0550;0x1;0x8
+DEBUG:pmreorder:STORE;0x7bc0650;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0x3c06d0;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x568
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x640
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x6c0
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x740
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802100;0xc0e1e63c40384b96;0x8
+DEBUG:pmreorder:STORE;0x7802108;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802110;0x280;0x8
+DEBUG:pmreorder:STORE;0x7802118;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802120;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802128;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802130;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802138;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802140;0x2400;0x8
+DEBUG:pmreorder:STORE;0x7802148;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802150;0x4000000000382508;0x8
+DEBUG:pmreorder:STORE;0x7802158;0xe;0x8
+DEBUG:pmreorder:STORE;0x7802160;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802168;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802170;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802178;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x180
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802400;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x408
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7b82508;0xe00000000000000f;0x8
+DEBUG:pmreorder:FLUSH;0x7b82000;0x510
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802100;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802108;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802110;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802118;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802120;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802128;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802130;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802138;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x140
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802400;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802408;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802410;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802418;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802420;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802428;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802430;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802438;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x440
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STOP
+==6271== Number of stores not made persistent: 0
+==6271== ERROR SUMMARY: 0 errors
+
+DEBUG:pmreorder:
+-------Initializing operations end-------
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7801808 size 8 value b'\x04\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7801808 size 8 value b'\x04\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7801818 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7801818 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc2440 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2448 size 8 value b'\xf0\x0f\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2450 size 8 value b'\x80\xae@\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2458 size 8 value b'0\x1a\x80\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2460 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\xa0|LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc05c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\xa0|LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0620 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0628 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0630 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0638 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0610 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0618 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 1 value b'H'
+DEBUG:pmreorder:addr: 0x7bc05e2 size 8 value b'alue-foo'
+DEBUG:pmreorder:addr: 0x7bc05e1 size 8 value b'value-fo'
+DEBUG:pmreorder:addr: 0x7bc05ea size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc0640 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0648 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b' }LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0620 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0628 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0630 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0638 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0610 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0618 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 1 value b'H'
+DEBUG:pmreorder:addr: 0x7bc05e2 size 8 value b'alue-foo'
+DEBUG:pmreorder:addr: 0x7bc05e1 size 8 value b'value-fo'
+DEBUG:pmreorder:addr: 0x7bc05ea size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc0640 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0648 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b' }LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+Store [8]:
+    by	No trace available
+Store [9]:
+    by	No trace available
+Store [10]:
+    by	No trace available
+Store [11]:
+    by	No trace available
+Store [12]:
+    by	No trace available
+Store [13]:
+    by	No trace available
+Store [14]:
+    by	No trace available
+Store [15]:
+    by	No trace available
+Store [16]:
+    by	No trace available
+Store [17]:
+    by	No trace available
+Store [18]:
+    by	No trace available
+Store [19]:
+    by	No trace available
+Store [20]:
+    by	No trace available
+Store [21]:
+    by	No trace available
+Store [22]:
+    by	No trace available
+Store [23]:
+    by	No trace available
+Store [24]:
+    by	No trace available
+Store [25]:
+    by	No trace available
+Store [26]:
+    by	No trace available
+Store [27]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0690 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0698 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 1 value b'\x18'
+DEBUG:pmreorder:addr: 0x7bc0662 size 2 value b'oo'
+DEBUG:pmreorder:addr: 0x7bc0661 size 2 value b'fo'
+DEBUG:pmreorder:addr: 0x7bc0664 size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc06c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06c8 size 8 value b'\x02\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xa0}LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0690 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0698 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 1 value b'\x18'
+DEBUG:pmreorder:addr: 0x7bc0662 size 2 value b'oo'
+DEBUG:pmreorder:addr: 0x7bc0661 size 2 value b'fo'
+DEBUG:pmreorder:addr: 0x7bc0664 size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc06c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06c8 size 8 value b'\x02\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xa0}LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0700 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0708 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0720 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0728 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0730 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0738 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0700 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0708 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0710 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0718 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'a\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xe1\x05<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'P\x05<\x00\x00\x00\x00\xc0'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'h\x05<\xc0 V\xc0C'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x18\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'P\x05<\x00\x00\x00\x00\xc0'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'h\x05<\xc0 V\xc0C'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x18\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc0558 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0560 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0550 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc0558 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0560 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0550 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x96K8@<\xe6\xe1\xc0'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x80\x02\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802140 size 8 value b'\x00$\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802148 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802150 size 8 value b'\x08%8\x00\x00\x00\x00@'
+DEBUG:pmreorder:addr: 0x7802158 size 8 value b'\x0e\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802160 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802168 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802170 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802178 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x96K8@<\xe6\xe1\xc0'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x80\x02\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802140 size 8 value b'\x00$\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802148 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802150 size 8 value b'\x08%8\x00\x00\x00\x00@'
+DEBUG:pmreorder:addr: 0x7802158 size 8 value b'\x0e\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802160 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802168 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802170 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802178 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7b82508 size 8 value b'\x0f\x00\x00\x00\x00\x00\x00\xe0'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7b82508 size 8 value b'\x0f\x00\x00\x00\x00\x00\x00\xe0'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+-------Initializing operations begin-------
+DEBUG:pmreorder:==6271== pmemcheck-1.0, a simple persistent store checker
+==6271== Copyright (c) 2014-2016, Intel Corporation
+==6271== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==6271== Command: /home/jayashree/projects/redis-3.2nvml/src/redis-server /home/jayashree/projects/redis-3.2nvml/redis.conf --port 1300
+==6271== Parent PID: 6270
+==6271== 
+==6271== START
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x4027000;0x1000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x7800000;0x40000000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x7800000;0x40000000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x4027000;0x1000;0x0
+DEBUG:pmreorder:STORE;0x7801808;0x4;0x8
+DEBUG:pmreorder:FLUSH;0x7801000;0x810
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7801818;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7801000;0x820
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc2440;0x1;0x8
+DEBUG:pmreorder:STORE;0x7bc2448;0xff0;0x8
+DEBUG:pmreorder:STORE;0x7bc2450;0x540ae80;0x8
+DEBUG:pmreorder:STORE;0x7bc2458;0x7801a30;0x8
+DEBUG:pmreorder:STORE;0x7bc2460;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05c0;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc05c8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05d0;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc05d8;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc05e8;0x494c7ca0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f0;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc05f8;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x600
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc05d0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05d8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0600;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0608;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0620;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0628;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0630;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0638;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0600;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0608;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0610;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0618;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x48;0x1
+DEBUG:pmreorder:STORE;0x7bc05e2;0x6f6f662d65756c61;0x8
+DEBUG:pmreorder:STORE;0x7bc05e1;0x6f662d65756c6176;0x8
+DEBUG:pmreorder:STORE;0x7bc05ea;0x0;0x1
+DEBUG:pmreorder:STORE;0x7bc0640;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc0648;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0650;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc0668;0x494c7d20;0x8
+DEBUG:pmreorder:STORE;0x7bc0670;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc0678;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x680
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc0650;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0668;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0670;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0678;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0680;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0688;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06a0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06a8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06b0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06b8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0680;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0688;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0690;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0698;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x18;0x1
+DEBUG:pmreorder:STORE;0x7bc0662;0x6f6f;0x2
+DEBUG:pmreorder:STORE;0x7bc0661;0x6f66;0x2
+DEBUG:pmreorder:STORE;0x7bc0664;0x0;0x1
+DEBUG:pmreorder:STORE;0x7bc06c0;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc06c8;0x2;0x8
+DEBUG:pmreorder:STORE;0x7bc06d0;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x494c7da0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x700
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc06d0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0700;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0708;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0720;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0728;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0730;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0738;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0700;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0708;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0710;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0718;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06d0;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0x3c0661;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x3c05e1;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802400;0xc0000000003c0550;0x8
+DEBUG:pmreorder:STORE;0x7802408;0x43c05620c03c0568;0x8
+DEBUG:pmreorder:STORE;0x7802410;0x18;0x8
+DEBUG:pmreorder:STORE;0x7802418;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802420;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802428;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802430;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802438;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x440
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc0558;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc0560;0x3c06d0;0x8
+DEBUG:pmreorder:STORE;0x7bc0550;0x1;0x8
+DEBUG:pmreorder:STORE;0x7bc0650;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0x3c06d0;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x568
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x640
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x6c0
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x740
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802100;0xc0e1e63c40384b96;0x8
+DEBUG:pmreorder:STORE;0x7802108;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802110;0x280;0x8
+DEBUG:pmreorder:STORE;0x7802118;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802120;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802128;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802130;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802138;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802140;0x2400;0x8
+DEBUG:pmreorder:STORE;0x7802148;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802150;0x4000000000382508;0x8
+DEBUG:pmreorder:STORE;0x7802158;0xe;0x8
+DEBUG:pmreorder:STORE;0x7802160;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802168;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802170;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802178;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x180
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802400;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x408
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7b82508;0xe00000000000000f;0x8
+DEBUG:pmreorder:FLUSH;0x7b82000;0x510
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802100;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802108;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802110;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802118;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802120;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802128;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802130;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802138;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x140
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802400;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802408;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802410;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802418;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802420;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802428;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802430;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802438;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x440
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STOP
+==6271== Number of stores not made persistent: 0
+==6271== ERROR SUMMARY: 0 errors
+
+DEBUG:pmreorder:
+-------Initializing operations end-------
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7801808 size 8 value b'\x04\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7801808 size 8 value b'\x04\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7801818 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7801818 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc2440 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2448 size 8 value b'\xf0\x0f\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2450 size 8 value b'\x80\xae@\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2458 size 8 value b'0\x1a\x80\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2460 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\xa0|LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc05c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\xa0|LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0620 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0628 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0630 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0638 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0610 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0618 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 1 value b'H'
+DEBUG:pmreorder:addr: 0x7bc05e2 size 8 value b'alue-foo'
+DEBUG:pmreorder:addr: 0x7bc05e1 size 8 value b'value-fo'
+DEBUG:pmreorder:addr: 0x7bc05ea size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc0640 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0648 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b' }LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0620 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0628 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0630 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0638 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0610 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0618 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 1 value b'H'
+DEBUG:pmreorder:addr: 0x7bc05e2 size 8 value b'alue-foo'
+DEBUG:pmreorder:addr: 0x7bc05e1 size 8 value b'value-fo'
+DEBUG:pmreorder:addr: 0x7bc05ea size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc0640 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0648 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b' }LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+Store [8]:
+    by	No trace available
+Store [9]:
+    by	No trace available
+Store [10]:
+    by	No trace available
+Store [11]:
+    by	No trace available
+Store [12]:
+    by	No trace available
+Store [13]:
+    by	No trace available
+Store [14]:
+    by	No trace available
+Store [15]:
+    by	No trace available
+Store [16]:
+    by	No trace available
+Store [17]:
+    by	No trace available
+Store [18]:
+    by	No trace available
+Store [19]:
+    by	No trace available
+Store [20]:
+    by	No trace available
+Store [21]:
+    by	No trace available
+Store [22]:
+    by	No trace available
+Store [23]:
+    by	No trace available
+Store [24]:
+    by	No trace available
+Store [25]:
+    by	No trace available
+Store [26]:
+    by	No trace available
+Store [27]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0690 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0698 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 1 value b'\x18'
+DEBUG:pmreorder:addr: 0x7bc0662 size 2 value b'oo'
+DEBUG:pmreorder:addr: 0x7bc0661 size 2 value b'fo'
+DEBUG:pmreorder:addr: 0x7bc0664 size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc06c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06c8 size 8 value b'\x02\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xa0}LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0690 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0698 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 1 value b'\x18'
+DEBUG:pmreorder:addr: 0x7bc0662 size 2 value b'oo'
+DEBUG:pmreorder:addr: 0x7bc0661 size 2 value b'fo'
+DEBUG:pmreorder:addr: 0x7bc0664 size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc06c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06c8 size 8 value b'\x02\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xa0}LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+Store [8]:
+    by	No trace available
+Store [9]:
+    by	No trace available
+Store [10]:
+    by	No trace available
+Store [11]:
+    by	No trace available
+Store [12]:
+    by	No trace available
+Store [13]:
+    by	No trace available
+Store [14]:
+    by	No trace available
+Store [15]:
+    by	No trace available
+Store [16]:
+    by	No trace available
+Store [17]:
+    by	No trace available
+Store [18]:
+    by	No trace available
+Store [19]:
+    by	No trace available
+Store [20]:
+    by	No trace available
+Store [21]:
+    by	No trace available
+Store [22]:
+    by	No trace available
+Store [23]:
+    by	No trace available
+Store [24]:
+    by	No trace available
+Store [25]:
+    by	No trace available
+Store [26]:
+    by	No trace available
+Store [27]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0700 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0708 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0720 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0728 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0730 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0738 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0700 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0708 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0710 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0718 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'a\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xe1\x05<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'P\x05<\x00\x00\x00\x00\xc0'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'h\x05<\xc0 V\xc0C'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x18\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'P\x05<\x00\x00\x00\x00\xc0'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'h\x05<\xc0 V\xc0C'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x18\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc0558 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0560 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0550 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc0558 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0560 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0550 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x96K8@<\xe6\xe1\xc0'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x80\x02\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802140 size 8 value b'\x00$\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802148 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802150 size 8 value b'\x08%8\x00\x00\x00\x00@'
+DEBUG:pmreorder:addr: 0x7802158 size 8 value b'\x0e\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802160 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802168 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802170 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802178 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x96K8@<\xe6\xe1\xc0'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x80\x02\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802140 size 8 value b'\x00$\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802148 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802150 size 8 value b'\x08%8\x00\x00\x00\x00@'
+DEBUG:pmreorder:addr: 0x7802158 size 8 value b'\x0e\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802160 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802168 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802170 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802178 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+Store [8]:
+    by	No trace available
+Store [9]:
+    by	No trace available
+Store [10]:
+    by	No trace available
+Store [11]:
+    by	No trace available
+Store [12]:
+    by	No trace available
+Store [13]:
+    by	No trace available
+Store [14]:
+    by	No trace available
+Store [15]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7b82508 size 8 value b'\x0f\x00\x00\x00\x00\x00\x00\xe0'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7b82508 size 8 value b'\x0f\x00\x00\x00\x00\x00\x00\xe0'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+-------Initializing operations begin-------
+DEBUG:pmreorder:==6271== pmemcheck-1.0, a simple persistent store checker
+==6271== Copyright (c) 2014-2016, Intel Corporation
+==6271== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==6271== Command: /home/jayashree/projects/redis-3.2nvml/src/redis-server /home/jayashree/projects/redis-3.2nvml/redis.conf --port 1300
+==6271== Parent PID: 6270
+==6271== 
+==6271== START
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x4027000;0x1000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x7800000;0x40000000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x7800000;0x40000000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x4027000;0x1000;0x0
+DEBUG:pmreorder:STORE;0x7801808;0x4;0x8
+DEBUG:pmreorder:FLUSH;0x7801000;0x810
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7801818;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7801000;0x820
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc2440;0x1;0x8
+DEBUG:pmreorder:STORE;0x7bc2448;0xff0;0x8
+DEBUG:pmreorder:STORE;0x7bc2450;0x540ae80;0x8
+DEBUG:pmreorder:STORE;0x7bc2458;0x7801a30;0x8
+DEBUG:pmreorder:STORE;0x7bc2460;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05c0;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc05c8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05d0;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc05d8;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc05e8;0x494c7ca0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f0;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc05f8;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x600
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc05d0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05d8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0600;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0608;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0620;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0628;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0630;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0638;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0600;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0608;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0610;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0618;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x48;0x1
+DEBUG:pmreorder:STORE;0x7bc05e2;0x6f6f662d65756c61;0x8
+DEBUG:pmreorder:STORE;0x7bc05e1;0x6f662d65756c6176;0x8
+DEBUG:pmreorder:STORE;0x7bc05ea;0x0;0x1
+DEBUG:pmreorder:STORE;0x7bc0640;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc0648;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0650;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc0668;0x494c7d20;0x8
+DEBUG:pmreorder:STORE;0x7bc0670;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc0678;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x680
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc0650;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0668;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0670;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0678;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0680;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0688;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06a0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06a8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06b0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06b8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0680;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0688;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0690;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0698;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x18;0x1
+DEBUG:pmreorder:STORE;0x7bc0662;0x6f6f;0x2
+DEBUG:pmreorder:STORE;0x7bc0661;0x6f66;0x2
+DEBUG:pmreorder:STORE;0x7bc0664;0x0;0x1
+DEBUG:pmreorder:STORE;0x7bc06c0;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc06c8;0x2;0x8
+DEBUG:pmreorder:STORE;0x7bc06d0;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x494c7da0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x700
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc06d0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0700;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0708;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0720;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0728;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0730;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0738;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0700;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0708;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0710;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0718;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06d0;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0x3c0661;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x3c05e1;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802400;0xc0000000003c0550;0x8
+DEBUG:pmreorder:STORE;0x7802408;0x43c05620c03c0568;0x8
+DEBUG:pmreorder:STORE;0x7802410;0x18;0x8
+DEBUG:pmreorder:STORE;0x7802418;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802420;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802428;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802430;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802438;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x440
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc0558;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc0560;0x3c06d0;0x8
+DEBUG:pmreorder:STORE;0x7bc0550;0x1;0x8
+DEBUG:pmreorder:STORE;0x7bc0650;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0x3c06d0;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x568
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x640
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x6c0
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x740
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802100;0xc0e1e63c40384b96;0x8
+DEBUG:pmreorder:STORE;0x7802108;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802110;0x280;0x8
+DEBUG:pmreorder:STORE;0x7802118;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802120;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802128;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802130;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802138;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802140;0x2400;0x8
+DEBUG:pmreorder:STORE;0x7802148;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802150;0x4000000000382508;0x8
+DEBUG:pmreorder:STORE;0x7802158;0xe;0x8
+DEBUG:pmreorder:STORE;0x7802160;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802168;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802170;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802178;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x180
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802400;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x408
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7b82508;0xe00000000000000f;0x8
+DEBUG:pmreorder:FLUSH;0x7b82000;0x510
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802100;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802108;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802110;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802118;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802120;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802128;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802130;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802138;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x140
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802400;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802408;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802410;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802418;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802420;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802428;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802430;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802438;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x440
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STOP
+==6271== Number of stores not made persistent: 0
+==6271== ERROR SUMMARY: 0 errors
+
+DEBUG:pmreorder:
+-------Initializing operations end-------
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7801808 size 8 value b'\x04\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7801808 size 8 value b'\x04\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7801818 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7801818 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc2440 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2448 size 8 value b'\xf0\x0f\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2450 size 8 value b'\x80\xae@\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2458 size 8 value b'0\x1a\x80\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2460 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\xa0|LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc05c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\xa0|LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0620 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0628 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0630 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0638 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0610 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0618 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 1 value b'H'
+DEBUG:pmreorder:addr: 0x7bc05e2 size 8 value b'alue-foo'
+DEBUG:pmreorder:addr: 0x7bc05e1 size 8 value b'value-fo'
+DEBUG:pmreorder:addr: 0x7bc05ea size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc0640 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0648 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b' }LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0620 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0628 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0630 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0638 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0610 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0618 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 1 value b'H'
+DEBUG:pmreorder:addr: 0x7bc05e2 size 8 value b'alue-foo'
+DEBUG:pmreorder:addr: 0x7bc05e1 size 8 value b'value-fo'
+DEBUG:pmreorder:addr: 0x7bc05ea size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc0640 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0648 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b' }LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+Store [8]:
+    by	No trace available
+Store [9]:
+    by	No trace available
+Store [10]:
+    by	No trace available
+Store [11]:
+    by	No trace available
+Store [12]:
+    by	No trace available
+Store [13]:
+    by	No trace available
+Store [14]:
+    by	No trace available
+Store [15]:
+    by	No trace available
+Store [16]:
+    by	No trace available
+Store [17]:
+    by	No trace available
+Store [18]:
+    by	No trace available
+Store [19]:
+    by	No trace available
+Store [20]:
+    by	No trace available
+Store [21]:
+    by	No trace available
+Store [22]:
+    by	No trace available
+Store [23]:
+    by	No trace available
+Store [24]:
+    by	No trace available
+Store [25]:
+    by	No trace available
+Store [26]:
+    by	No trace available
+Store [27]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0690 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0698 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 1 value b'\x18'
+DEBUG:pmreorder:addr: 0x7bc0662 size 2 value b'oo'
+DEBUG:pmreorder:addr: 0x7bc0661 size 2 value b'fo'
+DEBUG:pmreorder:addr: 0x7bc0664 size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc06c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06c8 size 8 value b'\x02\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xa0}LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0690 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0698 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 1 value b'\x18'
+DEBUG:pmreorder:addr: 0x7bc0662 size 2 value b'oo'
+DEBUG:pmreorder:addr: 0x7bc0661 size 2 value b'fo'
+DEBUG:pmreorder:addr: 0x7bc0664 size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc06c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06c8 size 8 value b'\x02\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xa0}LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+Store [8]:
+    by	No trace available
+Store [9]:
+    by	No trace available
+Store [10]:
+    by	No trace available
+Store [11]:
+    by	No trace available
+Store [12]:
+    by	No trace available
+Store [13]:
+    by	No trace available
+Store [14]:
+    by	No trace available
+Store [15]:
+    by	No trace available
+Store [16]:
+    by	No trace available
+Store [17]:
+    by	No trace available
+Store [18]:
+    by	No trace available
+Store [19]:
+    by	No trace available
+Store [20]:
+    by	No trace available
+Store [21]:
+    by	No trace available
+Store [22]:
+    by	No trace available
+Store [23]:
+    by	No trace available
+Store [24]:
+    by	No trace available
+Store [25]:
+    by	No trace available
+Store [26]:
+    by	No trace available
+Store [27]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0700 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0708 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0720 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0728 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0730 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0738 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0700 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0708 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0710 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0718 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'a\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xe1\x05<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'P\x05<\x00\x00\x00\x00\xc0'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'h\x05<\xc0 V\xc0C'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x18\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'P\x05<\x00\x00\x00\x00\xc0'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'h\x05<\xc0 V\xc0C'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x18\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc0558 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0560 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0550 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc0558 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0560 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0550 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x96K8@<\xe6\xe1\xc0'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x80\x02\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802140 size 8 value b'\x00$\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802148 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802150 size 8 value b'\x08%8\x00\x00\x00\x00@'
+DEBUG:pmreorder:addr: 0x7802158 size 8 value b'\x0e\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802160 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802168 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802170 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802178 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x96K8@<\xe6\xe1\xc0'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x80\x02\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802140 size 8 value b'\x00$\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802148 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802150 size 8 value b'\x08%8\x00\x00\x00\x00@'
+DEBUG:pmreorder:addr: 0x7802158 size 8 value b'\x0e\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802160 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802168 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802170 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802178 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+Store [8]:
+    by	No trace available
+Store [9]:
+    by	No trace available
+Store [10]:
+    by	No trace available
+Store [11]:
+    by	No trace available
+Store [12]:
+    by	No trace available
+Store [13]:
+    by	No trace available
+Store [14]:
+    by	No trace available
+Store [15]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7b82508 size 8 value b'\x0f\x00\x00\x00\x00\x00\x00\xe0'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7b82508 size 8 value b'\x0f\x00\x00\x00\x00\x00\x00\xe0'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+-------Initializing operations begin-------
+DEBUG:pmreorder:==6271== pmemcheck-1.0, a simple persistent store checker
+==6271== Copyright (c) 2014-2016, Intel Corporation
+==6271== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==6271== Command: /home/jayashree/projects/redis-3.2nvml/src/redis-server /home/jayashree/projects/redis-3.2nvml/redis.conf --port 1300
+==6271== Parent PID: 6270
+==6271== 
+==6271== START
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x4027000;0x1000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x7800000;0x40000000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x7800000;0x40000000;0x0
+DEBUG:pmreorder:REGISTER_FILE;/mnt/pmem/redis.pm;0x4027000;0x1000;0x0
+DEBUG:pmreorder:STORE;0x7801808;0x4;0x8
+DEBUG:pmreorder:FLUSH;0x7801000;0x810
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7801818;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7801000;0x820
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc2440;0x1;0x8
+DEBUG:pmreorder:STORE;0x7bc2448;0xff0;0x8
+DEBUG:pmreorder:STORE;0x7bc2450;0x540ae80;0x8
+DEBUG:pmreorder:STORE;0x7bc2458;0x7801a30;0x8
+DEBUG:pmreorder:STORE;0x7bc2460;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05c0;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc05c8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05d0;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc05d8;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc05e8;0x494c7ca0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f0;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc05f8;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x600
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc05d0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05d8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0600;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0608;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0620;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0628;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0630;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0638;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0600;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0608;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0610;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0618;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc05e0;0x48;0x1
+DEBUG:pmreorder:STORE;0x7bc05e2;0x6f6f662d65756c61;0x8
+DEBUG:pmreorder:STORE;0x7bc05e1;0x6f662d65756c6176;0x8
+DEBUG:pmreorder:STORE;0x7bc05ea;0x0;0x1
+DEBUG:pmreorder:STORE;0x7bc0640;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc0648;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0650;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc0668;0x494c7d20;0x8
+DEBUG:pmreorder:STORE;0x7bc0670;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc0678;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x680
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc0650;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0668;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0670;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0678;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0680;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0688;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06a0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06a8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06b0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06b8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0680;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0688;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0690;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0698;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0660;0x18;0x1
+DEBUG:pmreorder:STORE;0x7bc0662;0x6f6f;0x2
+DEBUG:pmreorder:STORE;0x7bc0661;0x6f66;0x2
+DEBUG:pmreorder:STORE;0x7bc0664;0x0;0x1
+DEBUG:pmreorder:STORE;0x7bc06c0;0x80;0x8
+DEBUG:pmreorder:STORE;0x7bc06c8;0x2;0x8
+DEBUG:pmreorder:STORE;0x7bc06d0;0x7b82410;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0xa4284b3b16826e00;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x5a18c40;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x494c7da0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x7b82400;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x51eb8ca;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x700
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc06d0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0700;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0708;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0720;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0728;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0730;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0738;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0700;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0708;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0710;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc0718;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06d0;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc06e0;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc06d8;0x3c0661;0x8
+DEBUG:pmreorder:STORE;0x7bc06e8;0x3c05e1;0x8
+DEBUG:pmreorder:STORE;0x7bc06f0;0x0;0x8
+DEBUG:pmreorder:STORE;0x7bc06f8;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802400;0xc0000000003c0550;0x8
+DEBUG:pmreorder:STORE;0x7802408;0x43c05620c03c0568;0x8
+DEBUG:pmreorder:STORE;0x7802410;0x18;0x8
+DEBUG:pmreorder:STORE;0x7802418;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802420;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802428;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802430;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802438;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x440
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7bc0558;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc0560;0x3c06d0;0x8
+DEBUG:pmreorder:STORE;0x7bc0550;0x1;0x8
+DEBUG:pmreorder:STORE;0x7bc0650;0x49b8cff2a6ed10b1;0x8
+DEBUG:pmreorder:STORE;0x7bc0658;0x3c06d0;0x8
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x568
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x640
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x6c0
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:FLUSH;0x7bc0000;0x740
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802100;0xc0e1e63c40384b96;0x8
+DEBUG:pmreorder:STORE;0x7802108;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802110;0x280;0x8
+DEBUG:pmreorder:STORE;0x7802118;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802120;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802128;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802130;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802138;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802140;0x2400;0x8
+DEBUG:pmreorder:STORE;0x7802148;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802150;0x4000000000382508;0x8
+DEBUG:pmreorder:STORE;0x7802158;0xe;0x8
+DEBUG:pmreorder:STORE;0x7802160;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802168;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802170;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802178;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x180
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802400;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x408
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7b82508;0xe00000000000000f;0x8
+DEBUG:pmreorder:FLUSH;0x7b82000;0x510
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802100;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802108;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802110;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802118;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802120;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802128;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802130;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802138;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x140
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STORE;0x7802400;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802408;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802410;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802418;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802420;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802428;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802430;0x0;0x8
+DEBUG:pmreorder:STORE;0x7802438;0x0;0x8
+DEBUG:pmreorder:FLUSH;0x7802000;0x440
+DEBUG:pmreorder:FENCE
+DEBUG:pmreorder:STOP
+==6271== Number of stores not made persistent: 0
+==6271== ERROR SUMMARY: 0 errors
+
+DEBUG:pmreorder:
+-------Initializing operations end-------
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7801808 size 8 value b'\x04\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7801808 size 8 value b'\x04\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7801818 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7801818 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc2440 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2448 size 8 value b'\xf0\x0f\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2450 size 8 value b'\x80\xae@\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2458 size 8 value b'0\x1a\x80\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc2460 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\xa0|LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc05c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05c8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\xa0|LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0620 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0628 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0630 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0638 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0610 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0618 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 1 value b'H'
+DEBUG:pmreorder:addr: 0x7bc05e2 size 8 value b'alue-foo'
+DEBUG:pmreorder:addr: 0x7bc05e1 size 8 value b'value-fo'
+DEBUG:pmreorder:addr: 0x7bc05ea size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc0640 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0648 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b' }LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc05d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0620 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0628 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0630 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0638 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0600 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0608 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0610 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0618 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc05e0 size 1 value b'H'
+DEBUG:pmreorder:addr: 0x7bc05e2 size 8 value b'alue-foo'
+DEBUG:pmreorder:addr: 0x7bc05e1 size 8 value b'value-fo'
+DEBUG:pmreorder:addr: 0x7bc05ea size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc0640 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0648 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b' }LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+WARNING:pmreorder:File /mnt/pmem/redis.pm inconsistent
+WARNING:pmreorder:Call trace:
+Store [0]:
+    by	No trace available
+Store [1]:
+    by	No trace available
+Store [2]:
+    by	No trace available
+Store [3]:
+    by	No trace available
+Store [4]:
+    by	No trace available
+Store [5]:
+    by	No trace available
+Store [6]:
+    by	No trace available
+Store [7]:
+    by	No trace available
+Store [8]:
+    by	No trace available
+Store [9]:
+    by	No trace available
+Store [10]:
+    by	No trace available
+Store [11]:
+    by	No trace available
+Store [12]:
+    by	No trace available
+Store [13]:
+    by	No trace available
+Store [14]:
+    by	No trace available
+Store [15]:
+    by	No trace available
+Store [16]:
+    by	No trace available
+Store [17]:
+    by	No trace available
+Store [18]:
+    by	No trace available
+Store [19]:
+    by	No trace available
+Store [20]:
+    by	No trace available
+Store [21]:
+    by	No trace available
+Store [22]:
+    by	No trace available
+Store [23]:
+    by	No trace available
+Store [24]:
+    by	No trace available
+Store [25]:
+    by	No trace available
+Store [26]:
+    by	No trace available
+Store [27]:
+    by	No trace available
+
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0690 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0698 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 1 value b'\x18'
+DEBUG:pmreorder:addr: 0x7bc0662 size 2 value b'oo'
+DEBUG:pmreorder:addr: 0x7bc0661 size 2 value b'fo'
+DEBUG:pmreorder:addr: 0x7bc0664 size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc06c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06c8 size 8 value b'\x02\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xa0}LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0668 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0670 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0678 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06a8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06b8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0680 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0688 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0690 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0698 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0660 size 1 value b'\x18'
+DEBUG:pmreorder:addr: 0x7bc0662 size 2 value b'oo'
+DEBUG:pmreorder:addr: 0x7bc0661 size 2 value b'fo'
+DEBUG:pmreorder:addr: 0x7bc0664 size 1 value b'\x00'
+DEBUG:pmreorder:addr: 0x7bc06c0 size 8 value b'\x80\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06c8 size 8 value b'\x02\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x10$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00n\x82\x16;K(\xa4'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'@\x8c\xa1\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xa0}LI\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00$\xb8\x07\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\xca\xb8\x1e\x05\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0700 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0708 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0720 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0728 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0730 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0738 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0700 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0708 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0710 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0718 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06d0 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc06e0 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc06d8 size 8 value b'a\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06e8 size 8 value b'\xe1\x05<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f0 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc06f8 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'P\x05<\x00\x00\x00\x00\xc0'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'h\x05<\xc0 V\xc0C'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x18\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'P\x05<\x00\x00\x00\x00\xc0'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'h\x05<\xc0 V\xc0C'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x18\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7bc0558 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0560 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0550 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0650 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0658 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7bc0558 size 8 value b'\xb1\x10\xed\xa6\xf2\xcf\xb8I'
+DEBUG:pmreorder:addr: 0x7bc0560 size 8 value b'\xd0\x06<\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7bc0550 size 8 value b'\x01\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x96K8@<\xe6\xe1\xc0'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x80\x02\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802140 size 8 value b'\x00$\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802148 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802150 size 8 value b'\x08%8\x00\x00\x00\x00@'
+DEBUG:pmreorder:addr: 0x7802158 size 8 value b'\x0e\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802160 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802168 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802170 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802178 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x96K8@<\xe6\xe1\xc0'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x80\x02\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802140 size 8 value b'\x00$\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802148 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802150 size 8 value b'\x08%8\x00\x00\x00\x00@'
+DEBUG:pmreorder:addr: 0x7802158 size 8 value b'\x0e\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802160 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802168 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802170 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802178 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7b82508 size 8 value b'\x0f\x00\x00\x00\x00\x00\x00\xe0'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7b82508 size 8 value b'\x0f\x00\x00\x00\x00\x00\x00\xe0'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802100 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802108 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802110 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802118 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802120 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802128 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802130 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802138 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
+DEBUG:pmreorder:
+
+In Replay State, store ops since last FLUSH : 
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+
+-----Testing the following sequence-----
+DEBUG:pmreorder:addr: 0x7802400 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802408 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802410 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802418 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802420 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802428 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802430 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:addr: 0x7802438 size 8 value b'\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:pmreorder:
+----Checking consistency----
